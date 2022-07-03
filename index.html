@@ -4,9 +4,266 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="assets/styles/style.css">
+    <!-- <script src="assets/js/main.js"></script>  -->
     <title>Responsive Blog Test</title>
 </head>
 <body>
+    <header>
+        <a href="#" class="logo">My Blog</a>
+        <div class="menuToggle"></div>
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a href="#home" onclick="toggleMenu();">Home</a></li>
+            <li><a href="#about" onclick="toggleMenu();">About</a></li>
+            <li><a href="#post" onclick="toggleMenu();">Post</a></li>
+            <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+        </ul>
+    </nav>
+    <!-- Banner -->
+    <section class="banner" id="home">
+        <img src="assets/img/banner.jpg" class="cover" alt="banner">
+        <div class="contentBox">
+            <h2>The soul of the world</h2>
+            <h4>A simple blog website</h4>
+            <a href="#about" class="btn">About us</a>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section class="about" id="about">
+        <div class="title">
+            <h2>About us</h2>
+        </div>
+        <div class="contentBox">
+            <div class="content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit molestiae id, quos doloribus maiores ipsum corporis explicabo nulla quam corrupti voluptas facere soluta dolor vero dolorem? Consequuntur dolore vero laudantium eos aliquam iure libero maiores nobis dicta velit doloribus voluptas facere unde ipsa, nulla praesentium dignissimos harum eius qui rerum! Dolores aperiam aspernatur cupiditate, repellat assumenda reprehenderit, fugiat ullam voluptate eum ea voluptatibus temporibus? Eos quis nam culpa saepe, voluptas, eaque illum quaerat quo quibusdam voluptatibus cumque itaque iste. Alias distinctio, quisquam facilis aliquid velit modi exercitationem reprehenderit nesciunt, est nemo qui. Deleniti, explicabo neque sequi consectetur reprehenderit reiciendis quam, laudantium in debitis porro omnis esse sed ipsa? Fuga nobis fugit omnis! Quidem recusandae dolores sit? Velit perspiciatis neque tempora iusto, debitis esse delectus cupiditate saepe sit libero, est ipsa soluta. <br><br>Optio natus aspernatur error aut, dolorem facere a molestias, minus nisi vel vitae tempora consequatur exercitationem, earum atque dicta quidem? Quaerat aut praesentium numquam sapiente officia facilis illo dolor distinctio molestiae. Deserunt nihil hic dolorum, quidem cum expedita numquam. Iste doloribus at sit corporis, unde sunt maiores ipsam sapiente modi, molestias, architecto magni assumenda autem temporibus magnam animi nobis tempore! Excepturi aspernatur maiores, voluptatem voluptas consequuntur error vitae accusantium quo! Eaque laborum, omnis blanditiis veniam, nisi est adipisci quo voluptatibus repudiandae mollitia ab ullam quas magnam harum. Voluptate numquam natus, unde iste soluta corporis necessitatibus eos, nihil et ipsum, tenetur earum? Dolorem quisquam corrupti soluta consectetur. Architecto, iste eius. Eum earum provident reiciendis ab laboriosam magnam illum at tenetur?</p>
+            </div>
+            <div class="content">
+                <div class="imgBx">
+                    <img src="assets/img/img1.jpg" class="cover">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Latest Blog Post -->
+    <section class="post" id="post">
+        <div class="title">
+            <h2>Latest Post</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem repudiandae, ratione mollitia dolorem saepe inventore ad soluta laudantium nobis tenetur ullam animi cum pariatur facilis sed natus aut maxime corporis porro tempora quaerat optio impedit, deleniti eum? Expedita beatae ipsum quidem vero officia explicabo, cumque voluptatem, non modi soluta quae nostrum, iure corporis minus porro deserunt ab. Dignissimos aliquid ullam consectetur tempora nostrum nesciunt quo dolorum. Consequuntur error veritatis quas voluptates, similique aspernatur assumenda dolor quam voluptatum iure aut laudantium mollitia molestiae voluptate dignissimos! Accusantium repudiandae laboriosam possimus quos ullam quisquam in minus enim placeat voluptatem, dolorem beatae libero iure!</p>
+        </div>
+        <div class="contentBox">
+            <div class="postColumn">
+                
+                <div class="postBox">
+                    <div class="imgBx">
+                        <img src="assets/img/post1.jpg" class="cover">
+                    </div>
+                    <div class="textBx">
+                        <h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi corrupti incidunt ab nemo ullam
+                        asperiores,
+                        aspernatur commodi? Consequatur temporibus ullam, culpa aperiam ab ad maxime quam voluptate ratione
+                        blanditiis iure fuga? Corrupti, autem. Quas, incidunt iure sit culpa aliquid laudantium aliquam eum
+                        blanditiis. Labore, ut at esse eligendi ipsam possimus sint.
+                        </h3>
+                        <a href="#" class="btn">Read more</a>
+                    </div>
+                </div>
+
+                <div class="postBox">
+                    <div class="imgBx">
+                        <img src="assets/img/post2.jpg" class="cover">
+                    </div>
+                    <div class="textBx">
+                        <h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi corrupti incidunt ab nemo ullam
+                        asperiores,
+                        aspernatur commodi? Consequatur temporibus ullam, culpa aperiam ab ad maxime quam voluptate ratione
+                        blanditiis iure fuga? Corrupti, autem. Quas, incidunt iure sit culpa aliquid laudantium aliquam eum
+                        blanditiis. Labore, ut at esse eligendi ipsam possimus sint.
+                        </h3>
+                        <a href="#" class="btn">Read more</a>
+                    </div>
+                </div>
+
+                <div class="postBox extraHeight">
+                    <div class="imgBx">
+                        <img src="assets/img/post3.jpg" class="cover">
+                    </div>
+                    <div class="textBx">
+                        <h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi corrupti incidunt ab nemo ullam
+                        asperiores,
+                        aspernatur commodi? Consequatur temporibus ullam, culpa aperiam ab ad maxime quam voluptate ratione
+                        blanditiis iure fuga? Corrupti, autem. Quas, incidunt iure sit culpa aliquid laudantium aliquam eum
+                        blanditiis. Labore, ut at esse eligendi ipsam possimus sint.
+                        </h3>
+                        <a href="#" class="btn">Read more</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="postColumn">
+            
+                <div class="postBox extraHeight">
+                    <div class="imgBx">
+                        <img src="assets/img/post4.jpg" class="cover">
+                    </div>
+                    <div class="textBx">
+                        <h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi corrupti incidunt ab nemo ullam
+                            asperiores,
+                            aspernatur commodi? Consequatur temporibus ullam, culpa aperiam ab ad maxime quam voluptate ratione
+                            blanditiis iure fuga? Corrupti, autem. Quas, incidunt iure sit culpa aliquid laudantium aliquam eum
+                            blanditiis. Labore, ut at esse eligendi ipsam possimus sint. 
+                        </h3>
+                        <a href="#" class="btn">Read more</a>
+                    </div>
+                </div>
+            
+                <div class="postBox">
+                    <div class="imgBx">
+                        <img src="assets/img/post5.jpg" class="cover">
+                    </div>
+                    <div class="textBx">
+                        <h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi corrupti incidunt ab nemo ullam
+                        asperiores,
+                        aspernatur commodi? Consequatur temporibus ullam, culpa aperiam ab ad maxime quam voluptate ratione
+                        blanditiis iure fuga? Corrupti, autem. Quas, incidunt iure sit culpa aliquid laudantium aliquam eum
+                        blanditiis. Labore, ut at esse eligendi ipsam possimus sint.
+                        </h3>
+                        <a href="#" class="btn">Read more</a>
+                    </div>
+                </div>
+            
+                <div class="postBox">
+                    <div class="imgBx">
+                        <img src="assets/img/post6.jpg" class="cover">
+                    </div>
+                    <div class="textBx">
+                        <h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi corrupti incidunt ab nemo ullam
+                        asperiores,
+                        aspernatur commodi? Consequatur temporibus ullam, culpa aperiam ab ad maxime quam voluptate ratione
+                        blanditiis iure fuga? Corrupti, autem. Quas, incidunt iure sit culpa aliquid laudantium aliquam eum
+                        blanditiis. Labore, ut at esse eligendi ipsam possimus sint.
+                        </h3>
+                        <a href="#" class="btn">Read more</a>
+                    </div>
+                </div>
+            
+            </div>
+
+            <div class="postColumn">
+            
+                <div class="postBox">
+                    <div class="imgBx">
+                        <img src="assets/img/post7.jpg" class="cover">
+                    </div>
+                    <div class="textBx">
+                        <h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi corrupti incidunt ab nemo ullam
+                        asperiores,
+                        aspernatur commodi? Consequatur temporibus ullam, culpa aperiam ab ad maxime quam voluptate ratione
+                        blanditiis iure fuga? Corrupti, autem. Quas, incidunt iure sit culpa aliquid laudantium aliquam eum
+                        blanditiis. Labore, ut at esse eligendi ipsam possimus sint.
+                        </h3>
+                        <a href="#" class="btn">Read more</a>
+                    </div>
+                </div>
+            
+                <div class="postBox">
+                    <div class="imgBx">
+                        <img src="assets/img/post8.jpg" class="cover">
+                    </div>
+                    <div class="textBx">
+                        <h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi corrupti incidunt ab nemo ullam
+                        asperiores,
+                        aspernatur commodi? Consequatur temporibus ullam, culpa aperiam ab ad maxime quam voluptate ratione
+                        blanditiis iure fuga? Corrupti, autem. Quas, incidunt iure sit culpa aliquid laudantium aliquam eum
+                        blanditiis. Labore, ut at esse eligendi ipsam possimus sint.
+                        </h3>
+                        <a href="#" class="btn">Read more</a>
+                    </div>
+                </div>
+            
+                <div class="postBox extraHeight">
+                    <div class="imgBx">
+                        <img src="assets/img/post9.jpg" class="cover">
+                    </div>
+                    <div class="textBx">
+                        <h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi corrupti incidunt ab nemo ullam
+                        asperiores,
+                        aspernatur commodi? Consequatur temporibus ullam, culpa aperiam ab ad maxime quam voluptate ratione
+                        blanditiis iure fuga? Corrupti, autem. Quas, incidunt iure sit culpa aliquid laudantium aliquam eum
+                        blanditiis. Labore, ut at esse eligendi ipsam possimus sint.
+                        </h3>
+                        <a href="#" class="btn">Read more</a>
+                    </div>
+                </div>
+            
+            </div>
+        </div>
+        <div class="title">
+            <a href="#" class="btn mgt60">Load more</a>
+        </div>
+    </section>
+
+    <!-- Contact  -->
+    <section class="contact" id="contact">
+        <div class="title">
+            <h2>Get in Touch</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem repudiandae, ratione mollitia
+                dolorem saepe inventore ad soluta laudantium nobis tenetur ullam animi cum pariatur facilis sed natus aut
+                maxime corporis porro tempora quaerat optio impedit, deleniti eum? Expedita beatae ipsum quidem vero officia
+                explicabo, cumque voluptatem, non modi soluta quae nostrum, iure corporis minus porro deserunt ab.</p>
+        </div>
+        <div class="contactForm">
+            <div class="row">
+                <input type="text" name="" placeholder="First Name">
+                <input type="text" name="" placeholder="Second Name">
+            </div>
+            <div class="row">
+                <input type="text" name="" placeholder="Email address">
+                <input type="text" name="" placeholder="Phone number">
+            </div>
+            <div class="row2">
+                <textarea placeholder="Message"></textarea>
+            </div>
+            <div class="row2">
+                <input type="submit" value="Send" class="btn">
+            </div>
+        </div>
+    </section>  
     
+    <!-- Footer  -->
+    <footer>
+        <a href="#" class="logo">My Blog</a>
+        <ul class="footerMenu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#post">Post</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <p class="copyright">Copyright © 2022 Dmytro Rudenko</p>
+    </footer>
+
+
+    <script>
+        const menuToggle = document.querySelector('.menuToggle');
+        const navigation = document.querySelector('.navigation');
+        menuToggle.onclick = function() {
+            menuToggle.classList.toggle('active');
+            navigation.classList.toggle('active');
+        }
+        
+        window.addEventListener('scroll', function () {
+            const header = document.querySelector('header');
+            header.classList.toggle('sticky', window.scrollY > 0);
+        })
+
+        function toggleMenu(){
+            menuToggle.classList.remove('active');
+            navigation.classList.remove('active');
+        }
+    </script>
 </body>
 </html>
